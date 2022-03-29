@@ -13,3 +13,9 @@ A primeira linha de entrada contém um inteiro **N** (**N** < 100) com a quantid
 ## Saída
 
 A saída contém **N** linhas, cada uma representando uma lista de compra, sem os itens repetidos e em ordem alfabética.
+
+### Exemplos
+
+![exercicio](
+https://github.com/LevyMatias/ImagensGithub/blob/main/img%20exercicios/.net%20fundamentals/Supermercado/Captura_1.png
+)
