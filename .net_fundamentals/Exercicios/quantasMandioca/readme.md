@@ -19,3 +19,13 @@ A entrada consiste de 5 inteiros cada um representando as porções que os convi
 ## Saída
 
 A saída consiste de um único inteiro que representa quanta mandioca Marlene deve preparar em gramas.
+
+### Exemplos
+
+![exercicio](
+https://github.com/LevyMatias/ImagensGithub/blob/main/img%20exercicios/.net%20fundamentals/Quanta_mandioca/Cap1.png
+)
+
+![exercicio](
+https://github.com/LevyMatias/ImagensGithub/blob/main/img%20exercicios/.net%20fundamentals/Quanta_mandioca/Cap2.png
+)
