@@ -15,3 +15,9 @@ A entrada contém vários casos de teste e termina com final de arquivo. Cada li
 ## Saída
 
 A saída contém uma linha, que pode ser “Senha valida.”, caso a senha  tenha cada item dos requisitos solicitados anteriormente, ou “Senha  invalida.”, se um ou mais requisitos não forem atendidos.
+
+### Exemplos
+
+![exercicio](
+https://github.com/LevyMatias/ImagensGithub/blob/main/img%20exercicios/.net%20fundamentals/Validador_senha/Captura_1.png
+)

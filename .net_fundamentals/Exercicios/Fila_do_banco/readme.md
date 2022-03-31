@@ -20,4 +20,7 @@
 
   Para cada caso de teste imprima uma linha, contendo um inteiro,  indicando o número de clientes que não precisaram trocar de lugar mesmo  após a fila ser reordenada.
   
-  
+  ### Exemplos
+![exercicio](
+https://github.com/LevyMatias/ImagensGithub/blob/main/img%20exercicios/.net%20fundamentals/Fila_do_banco/Captura_fila_do_banco.png
+)
