@@ -32,15 +32,15 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ```
 # Clone o repositório
-git clone 
+git clone https://github.com/LevyMatias/Bootcamps_dio
 
 # Entre no diretório
-cd 
+cd html_developer\Snake_game
 ```
 
 
 
-- Ou acessar diretamente por esse link: 
+- Ou acessar diretamente por esse link: [Game Snake](https://the-game-snake.netlify.app/)
 
 
 
