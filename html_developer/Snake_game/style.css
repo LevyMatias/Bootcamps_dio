@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    background-color:rgb(29, 35, 51);;
+    color: rgb(255, 241, 45);
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+table tr{
+    width: 480px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.game {
+    text-shadow: 2px 2px gray;
+    font-size: 4rem;
+    font-family: 'VT323', monospace;
+}
+
+#snake {
+    border: solid rgb(33, 134, 24) 10px;
+    border-radius: 7px;
+}
+
