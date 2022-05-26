@@ -1,5 +1,6 @@
 ## Iniciando no React Native :iphone:
 
+![image](https://user-images.githubusercontent.com/88509014/170540686-50c14baf-0f4d-4dd8-b898-4cedf69b0258.png)
 
 
 ### Sobre o Projeto 📝
