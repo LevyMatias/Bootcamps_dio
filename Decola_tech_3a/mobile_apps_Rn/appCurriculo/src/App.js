@@ -1,32 +1,17 @@
-
 import React from 'react';
-import Icon from 'react-native-vector-icons/Feather';
 import {
   StyleSheet,
   View,
   Image,
   Text,
-  TouchableOpacity,
-  Alert,
 } from 'react-native';
 
 import photo from './assets/foto-perfil-curriculo.png';
+import Card from './components/card';
+import Social from './components/socials';
 
 const App = () => {
 
-  function handlerSocial (socialMedia){
-    switch(socialMedia){
-      case 'linkedin':
-        Alert.alert('https://www.linkedin.com/in/levy-matias/');
-        break;
-      case 'github':
-        Alert.alert('https://github.com/LevyMatias');
-        break;
-      case 'facebook':
-        Alert.alert('https://www.facebook.com/');
-        break;
-    }
-  }
 
   return (
     <>
@@ -36,46 +21,23 @@ const App = () => {
           <Text style={[style.name, style.gray]}>Levy Matias R</Text>
           <Text style={style.gray}>Beginner Developer</Text>
 
-          <View style={style.socials}>
-            <TouchableOpacity onPress={() => handlerSocial('github')}>
-            <Icon name="github" size={25} color='#d4cfcf' />
-            </TouchableOpacity>
-            <TouchableOpacity onPress={() => handlerSocial('linkedin')}>
-            <Icon name='linkedin' size={25} color='#d4cfcf' />
-            </TouchableOpacity>
-            <TouchableOpacity onPress={() => handlerSocial('facebook')}>
-            <Icon name='facebook' size={25} color='#d4cfcf' />
-            </TouchableOpacity>
-          </View>
+          <Social />
 
-          <View style={style.card}>
-            <View style={style.card_header}>
-              <Text style={style.title_card}>Courses</Text>
-            </View>
+          <Card title="Courses">
+            <Text>JavaScript</Text>
+            <Text>HTML e CSS</Text>
+            <Text>React</Text>
+            <Text>.Net</Text>
+            <Text>Git</Text>
+          </Card>
 
-            <View style={style.card_content}>
-              <Text>JavaScript</Text>
-              <Text>HTML e CSS</Text>
-              <Text>React</Text>
-              <Text>.Net</Text>
-              <Text>Git</Text>
-            </View>
-          </View>
-
-          <View style={style.card}>
-            <View style={style.card_header}>
-              <Text style={style.title_card}>Courses</Text>
-            </View>
-
-            <View style={style.card_content}>
-              <Text>JavaScript</Text>
-              <Text>HTML e CSS</Text>
-              <Text>React</Text>
-              <Text>.Net</Text>
-              <Text>Git</Text>
-            </View>
-          </View>
-
+          <Card title="Courses">
+            <Text>JavaScript</Text>
+            <Text>HTML e CSS</Text>
+            <Text>React</Text>
+            <Text>.Net</Text>
+            <Text>Git</Text>
+          </Card>
         </View>
       </View>
     </>
@@ -103,35 +65,6 @@ const style = StyleSheet.create({
   name: {
     fontWeight: 'bold',
     fontSize: 22,
-  },
-  title_card: {
-    fontWeight: 'bold',
-    fontSize: 20,
-    marginBottom: 10,
-  },
-  green: {
-    color: '#4ae84a',
-  },
-  socials: {
-    flexDirection: 'row',
-    justifyContent: 'space-around',
-    backgroundColor: '#404a40',
-    padding: 10,
-    width: '100%',
-    borderTopWidth: 1,
-    borderBottomWidth: 1,
-    borderColor: "#4ae84a",
-  },
-  card: {
-    width: '60%',
-    borderWidth: 1,
-    borderColor: '#4ae84a',
-    paddingVertical: 5,
-    alignItems: 'center',
-    backgroundColor: '#fff'
-  },
-  card_content: {
-    alignItems: 'center',
   }
 });
 export default App;
