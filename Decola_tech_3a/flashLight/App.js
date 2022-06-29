@@ -1,9 +1,15 @@
-import React, {useState} from 'react';
-import { View, StyleSheet, Image, TouchableOpacity } from 'react-native';
+import React, {useState, useEffect} from 'react';
+import { View, StyleSheet, Image, TouchableOpacity,Alert } from 'react-native';
+import Torch from 'react-native-torch';
+import RnShake from 'react-native-shake';
 
 const App = () => {
   const [tougle, setTougle] = useState(false);
   const handleChangeTougle = () => setTougle(oldTougle => !oldTougle);
+
+  useEffect(() => {
+    Torch.switchState(tougle);
+  },[tougle]);
 
   return (
     <View style={tougle ? style.containerLight : style.container}>
