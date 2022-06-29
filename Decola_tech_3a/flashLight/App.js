@@ -11,6 +11,14 @@ const App = () => {
     Torch.switchState(tougle);
   },[tougle]);
 
+  useEffect(() => {
+    const subscription = RnShake.addListener(() => {
+      setTougle(oldTougle => !oldTougle);
+    });
+
+    return () => subscription.remove();
+  }, []);
+
   return (
     <View style={tougle ? style.containerLight : style.container}>
       <Image
