@@ -35,3 +35,14 @@ table tr{
     border-radius: 7px;
 }
 
+@media screen and (max-width: 768px) {
+    canvas {
+        width: 90%;
+        margin: auto;
+    }
+
+    table tr, table {
+        width: 100%;
+        text-align: center;
+    }
+}
