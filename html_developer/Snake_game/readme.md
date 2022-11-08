@@ -40,7 +40,7 @@ cd html_developer\Snake_game
 
 
 
-- Ou acessar diretamente por esse link: [Game Snake](https://the-game-snake.netlify.app/)
+- Ou acessar diretamente por esse link: [Game Snake](https://snakeethegame.netlify.app/)
 
 
 
